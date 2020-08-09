@@ -16,7 +16,7 @@ class SolutionA:
 
 # 最小路径和
 class Solution:
-    def minPathSum(self, grid: List[List[int]]) -> int:
+    def minPathSum(self, grid: list[list[int]]) -> int:
         if not grid or not grid[0]:
             return 0
 
